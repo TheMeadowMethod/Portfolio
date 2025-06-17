@@ -1,7 +1,9 @@
 /* Apply cozy, soft styling */
 body {
-  background-color: #fdf6f0;
-  color: #3e3e3e;
+  background-colour:#FDF6EC
+
+;
+ 
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
   margin: 0;
@@ -17,7 +19,7 @@ header, nav, section, footer {
 
 /* Header with a warm background */
 header {
-  background-color: #e8d8c3;
+  background-colour: #A3B18A;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -31,7 +33,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #5c4d3c;
+  colour: #5E503F;
   font-weight: bold;
   margin: 0 10px;
 }
@@ -42,7 +44,7 @@ nav a:hover {
 
 /* Content sections */
 section {
-  background-color: #fffaf5;
+  background-colour: #D8A7B1;
   border-radius: 12px;
   padding: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -51,7 +53,7 @@ section {
 /* Footer */
 footer {
   text-align: center;
-  color: #888;
+  colour: #5E503F;
   font-size: 0.9em;
   margin-top: 40px;
 }
