@@ -8,12 +8,12 @@
   --ginger: #d08c60;
   --ink: #3e3e3e;
   --cloud: #e8e3dc;
-  --warm-walnut: #5e503f;
+  --warm-walnut: c;
 }
 
  /*base styles*/
 body {
-  background-colour: --buttercream;
+  background-colour: #fdf6ec;
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
   margin: 0;
@@ -29,7 +29,7 @@ header, nav, section, footer {
 
 /*header layout*/
 header {
-  background-colour: #sage;
+  background-colour: #a3b18a;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  colour: warm-walnut;
+  colour: #a3b18a;
   font-weight: bold;
   margin: 0 10px;
 }
@@ -54,16 +54,22 @@ nav a:hover {
 
 /* Content sections */
 section {
-  background-colour: dusty-rose;
+  background-colour: #d8a7b1;
   border-radius: 12px;
   padding: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+
+
+
+
+
+
 /* Footer */
 footer {
   text-align: center;
-  colour: warm-walnut;
+  colour: #a3b18a;
   font-size: 0.9em;
   margin-top: 40px;
 }
