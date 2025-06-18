@@ -1,5 +1,12 @@
 /* style.css */
 
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@font-face {
+  font-family: "comicCat";
+  src: url("https://raw.githubusercontent.com/FreyrVL/assets/master/fonts/Comic_CAT.otf");
+}
+
  /*base styles*/
 body {
   background-color: #fdf6ec;
@@ -25,6 +32,15 @@ header {
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+#title {
+  font-family:"comicCat";
+}
+
+#avatar {
+  border-radius:100%;
+  width: 200px;
+  height:200px;
+}
 
 /* Navigation links */
 nav {
@@ -45,7 +61,7 @@ nav a:hover {
 
 /* Content sections */
 section {
-  background-color: #d8a7b1;
+  background-color: #fdf6ec;
   border-radius: 12px;
   padding: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
