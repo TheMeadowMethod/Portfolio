@@ -1,25 +1,35 @@
-/* Apply cozy, soft styling */
-body {
-  background-colour:#FDF6EC
+/* style.css */
+/*linking colour to rpg code*/
+:root {
+  --buttercream: #fdf6ec;
+  --sage: #a3b18a;
+  --moss: #6c7d47;
+  --dusty-rose: #d8a7b1;
+  --ginger: #d08c60;
+  --ink: #3e3e3e;
+  --cloud: #e8e3dc;
+  --warm-walnut: #5e503f;
+}
 
-;
- 
+ /*base styles*/
+body {
+  background-colour:buttercream;
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
-/* Layout for sections */
+/*Layout for sections*/
 header, nav, section, footer {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
 }
 
-/* Header with a warm background */
+/*header layout*/
 header {
-  background-colour: #A3B18A;
+  background-colour: #sage;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -33,7 +43,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  colour: #5E503F;
+  colour: warm-walnut;
   font-weight: bold;
   margin: 0 10px;
 }
@@ -44,7 +54,7 @@ nav a:hover {
 
 /* Content sections */
 section {
-  background-colour: #D8A7B1;
+  background-colour: dusty-rose;
   border-radius: 12px;
   padding: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -53,7 +63,7 @@ section {
 /* Footer */
 footer {
   text-align: center;
-  colour: #5E503F;
+  colour: warm-walnut;
   font-size: 0.9em;
   margin-top: 40px;
 }
