@@ -14,7 +14,7 @@
  /*base styles*/
 body {
   background-colour: #fdf6ec;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -30,6 +30,7 @@ header, nav, section, footer {
 /*header layout*/
 header {
   background-colour: #a3b18a;
+  font-family: 'Playfair Display', serif;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
