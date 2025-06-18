@@ -13,7 +13,7 @@
 
  /*base styles*/
 body {
-  background-colour:buttercream;
+  background-colour: --buttercream;
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
   margin: 0;
