@@ -18,12 +18,44 @@ body {
 }
 
 /*Layout for sections*/
-header, nav, section, footer {
+section {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
 }
 
+/*nav layout*/
+nav {
+  nav {
+  background-color: var(--cloud);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--ginger);
+  text-decoration: underline;
+}
+
+}
 /*header layout*/
 header {
   background-color: #a3b18a;
