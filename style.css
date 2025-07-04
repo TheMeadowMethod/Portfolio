@@ -78,7 +78,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #a3b18a;
+  color: #fdf6ec;
   font-weight: bold;
   margin: 0 10px;
 }
@@ -96,8 +96,8 @@ body, html {
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
+  background-color: #A3B18A;
+  color: #6C7D47;
   float: left;
   border: none;
   outline: none;
@@ -107,12 +107,12 @@ body, html {
   width: 25%;
 }
 .tablink:hover {
-  background-color: #777;
+  background-color:#A3B18A;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: #A3B18A;
   display: none;
   padding: 100px 20px;
   height: 100%;
@@ -126,7 +126,7 @@ body, html {
 /* Footer */
 footer {
   text-align: center;
-  color: #a3b18a;
+  color: #fdf6ec;
   font-size: 0.9em;
   margin-top: 40px;
 }
