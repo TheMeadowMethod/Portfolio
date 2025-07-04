@@ -1,11 +1,7 @@
 /* style.css */
 
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@font-face {
-  font-family: "comicCat";
-  src: url("https://raw.githubusercontent.com/FreyrVL/assets/master/fonts/Comic_CAT.otf");
-}
+
 
  /*base styles*/
 body {
