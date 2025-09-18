@@ -7,3 +7,10 @@
 
   Feel free to reach out to me on social media if you want to talk about cats, coffee and all things cosy!
 </p>
+
+##projects
+###project 1
+description
+photos
+
+###project 2
